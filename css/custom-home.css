@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px){
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+.dropdown-menu{
+        margin-top: 0;
+    }
+.dropdown-toggle{
+        margin-bottom: 2px;
+    }
+.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+}
+
+.listGroup.listGroup-tree {
+	padding: 0;
+}
+.listGroup.listGroup-tree .listGroup {
+	margin-bottom: 0;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup-item {
+	padding-left: 30px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item {
+	padding-left: 45px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item {
+	padding-left: 60px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item > .listGroup-item {
+	padding-left: 75px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item > .listGroup-item > .listGroup-item {
+	padding-left: 90px;
+}
+.listGroup-item .fa {
+	margin-right: 5px;
+}
+/*.fa-chevron:before {
+	content: "\f054"; /*right*/
+}
+.in > .fa-chevron:before {
+	content: "\f078"; /*down*/
+}*/

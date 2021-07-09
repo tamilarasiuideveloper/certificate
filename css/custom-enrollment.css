@@ -1,0 +1,68 @@
+@media screen and (min-width: 768px){
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+.dropdown-menu{
+        margin-top: 0;
+    }
+.dropdown-toggle{
+        margin-bottom: 2px;
+    }
+.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+}
+.listGroup.listGroup-tree {
+	padding: 0;
+}
+.listGroup.listGroup-tree .listGroup {
+	margin-bottom: 0;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup-item {
+	padding-left: 30px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item {
+	padding-left: 45px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item {
+	padding-left: 60px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item > .listGroup-item {
+	padding-left: 75px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item > .listGroup-item > .listGroup-item {
+	padding-left: 90px;
+}
+.listGroup-item .fa {
+	margin-right: 5px;
+}
+/*.fa-chevron:before {
+	content: "\f054"; /*right
+}*/
+.in > .fa-chevron:before {
+	content: "\f078"; /*down*/
+}
+.play_icon{text-align: center;
+    padding: 10px 0 60px 0;
+}
+.section.enroll{background-image: url(../images/backgrounds/banner-placeholder-inner.jpg);
+    background-position: center center;
+    padding: 70px 0;}
+	
+	.section .bg-color {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.green_1{color: #10ad39;}
+#Enrollment-Content{ background: #f7f7f7;}
+.form-basic h2 {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #4c565e;
+    font-size: 34px;
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin: 0;
+}
+.form_sec{margin-top:0px;margin-bottom:20px;}
+ .form-row .red_txt{font-size: 16px; color:red; display:inline}
+ #thx_message .thx_message{font-size: 22px;margin-left: 90px;}

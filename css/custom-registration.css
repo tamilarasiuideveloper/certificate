@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px){
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+.dropdown-menu{
+        margin-top: 0;
+    }
+.dropdown-toggle{
+        margin-bottom: 2px;
+    }
+.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+}
+.listGroup.listGroup-tree {
+	padding: 0;
+}
+.listGroup.listGroup-tree .listGroup {
+	margin-bottom: 0;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup-item {
+	padding-left: 30px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item {
+	padding-left: 45px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item {
+	padding-left: 60px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item > .listGroup-item {
+	padding-left: 75px;
+}
+.listGroup.listGroup-tree > .listGroup > .listGroup > .listGroup-item > .listGroup-item > .listGroup-item > .listGroup-item {
+	padding-left: 90px;
+}
+.listGroup-item .fa {
+	margin-right: 5px;
+}
+/*.fa-chevron:before {
+	content: "\f054"; /*right
+}*/
+.in > .fa-chevron:before {
+	content: "\f078"; /*down*/
+}
+.play_icon{text-align: center;
+    padding: 10px 0 60px 0;
+}
+.section.reg{background-image: url(../images/backgrounds/banner-placeholder-inner.jpg);
+    background-position: center center;
+    padding: 70px 0;}
+	#Registration-Content{margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'aquiline_bookregular';}
+	section.addcomments{background: url(../images/backgrounds/iStock-1137939195.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;}
+	.section .bg-color {
+    background-color: rgba(0, 0, 0, 0.4);
+}

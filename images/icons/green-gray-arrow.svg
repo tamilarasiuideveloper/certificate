@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 43.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0c9;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #d9d9d9;
+      }
+    </style>
+  </defs>
+  <title>green-gray-arrow</title>
+  <g>
+    <polygon class="cls-1" points="0 0 22.3 21.5 0 43.1 0 0 0 0"/>
+    <polygon class="cls-2" points="6.9 0 30 21.5 6.9 43.1 6.9 0 6.9 0"/>
+  </g>
+</svg>

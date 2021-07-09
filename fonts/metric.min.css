@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'aquiline_bookregular';
+    src: url('aquiline_book-webfont.woff2') format('woff2'),
+         url('aquiline_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aquiline_extra_boldbold';
+    src: url('aquiline_extra_bold-webfont.woff2') format('woff2'),
+         url('aquiline_extra_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aquiline_bookbold';
+    src: url('aquiline_book_bold-webfont.woff2') format('woff2'),
+         url('aquiline_book_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
