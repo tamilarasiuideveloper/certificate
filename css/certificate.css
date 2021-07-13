@@ -658,6 +658,7 @@ ul.client-Logo {
 }
 }
 
+
 .image {
     width: 150px;
     border: 1px solid #007bff70;
@@ -667,4 +668,20 @@ ul.client-Logo {
     text-align: center;
     vertical-align: middle;
     background: #007bff70;
+}
+.banner.home.h_ban.certificate-pge-baner {
+    background: url(../images/certificate/banner-part.png) no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+.banner-conT {
+    text-align: left;
+	margin-top: 8%;
+}
+.banner-conT h1, .banner-conT h2 {
+    text-align: left;
+    line-height: 1.5;
+    margin: 5px 0px !important;
+    word-break: break-word;
+    width: 480px;
 }
