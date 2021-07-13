@@ -685,3 +685,13 @@ ul.client-Logo {
     word-break: break-word;
     width: 480px;
 }
+/**contact-us**/
+h4.Ad-bold-Text {
+    margin-bottom: 10px;
+	font-size: 20px;
+}
+h4.Ad-bold-Text img {
+    display: inline-block;
+    width: 35px;
+    margin: 0px 10px;
+}
