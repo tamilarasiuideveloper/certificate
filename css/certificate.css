@@ -666,10 +666,10 @@ form.Send-MessageForm h3 {
     width: 46%;
     margin: 10px 5px 20px 4px;
 }
-.scholl-grade-View .popover__content,.scholl-grade-View .popover__content.contpop_2,.scholl-grade-View .popover__content.contpop_3,.scholl-grade-View .popover__content.contpop_4,.scholl-grade-View .popover__content.contpop_5 {
+.scholl-grade-View .popover__content,.scholl-grade-View .popover__content.contpop_2,.scholl-grade-View .popover__content.contpop_3,.scholl-grade-View .popover__content.contpop_4,.scholl-grade-View .popover__content.contpop_5,.scholl-grade-View .popover__content.contpop_6 {
     left: 0;
 }
-.scholl-grade-View .popover__content:before,.scholl-grade-View .popover__content.contpop_2:before,.scholl-grade-View .popover__content.contpop_3:before ,.scholl-grade-View .popover__content.contpop_4:before ,.scholl-grade-View .popover__content.contpop_5:before  {
+.scholl-grade-View .popover__content:before,.scholl-grade-View .popover__content.contpop_2:before,.scholl-grade-View .popover__content.contpop_3:before ,.scholl-grade-View .popover__content.contpop_4:before ,.scholl-grade-View .popover__content.contpop_5:before,.scholl-grade-View .popover__content.contpop_6:before  {
     right: calc(46% - 10px);
 }
 .scholl-grade-View .popover__content img {
