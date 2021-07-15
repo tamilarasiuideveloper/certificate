@@ -53,6 +53,9 @@ li.ClientLog {
     list-style: none;
     width: 16%;
     float: left;
+	display: flex;
+	margin: 10px 0px;
+	    text-align: center;
 }
  /**form-section**/
  .form-Sec {
@@ -603,6 +606,9 @@ form.Send-MessageForm {
 form.Send-MessageForm h3 {
     font-size: 26px;
 }
+li.ClientLog {
+    width: 20%;
+}
 }
 @media screen and (max-width: 991px) and (min-width: 768px ){
 .scholl-grade-View .popover__content {
@@ -650,6 +656,9 @@ form.Send-MessageForm {
 form.Send-MessageForm h3 {
     font-size: 30px;
 }
+li.ClientLog {
+    width: 23%;
+}
 }
 @media screen and (max-width: 767px) and (min-width: 320px ){
 	form.Send-MessageForm {
@@ -687,7 +696,7 @@ form.Send-MessageForm h3 {
     max-width: 100%;
 }
 li.ClientLog {
-    width: 32%;
+    width: 50%;
 }
 ul.client-Logo {
     padding: 0px;
@@ -697,6 +706,9 @@ ul.client-Logo {
 	.scholl-grade-View .popover__wrapper_box {
     width: 44%;
     margin: 10px 11px 20px 11px;
+}
+li.ClientLog {
+    width: 33%;
 }
 }
 
