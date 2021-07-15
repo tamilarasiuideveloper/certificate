@@ -698,5 +698,6 @@ h4.Ad-bold-Text img {
 img.tel-img {
     width: 25px;
     margin-right: 10px;
-    filter: opacity(0.8) drop-shadow(0 0 0 #10ad39);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
