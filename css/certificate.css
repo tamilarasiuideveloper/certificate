@@ -663,8 +663,8 @@ form.Send-MessageForm h3 {
 	padding: 2px;
 }
 .scholl-grade-View .popover__wrapper_box {
-    width: 80%;
-	margin: 10px 20px 20px 17px;
+    width: 46%;
+    margin: 10px 5px 20px 4px;
 }
 .scholl-grade-View .popover__content,.scholl-grade-View .popover__content.contpop_2,.scholl-grade-View .popover__content.contpop_3,.scholl-grade-View .popover__content.contpop_4,.scholl-grade-View .popover__content.contpop_5 {
     left: 0;
