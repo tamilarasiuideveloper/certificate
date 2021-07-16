@@ -66,6 +66,8 @@ li.ClientLog {
     border-radius: 10px;
     border: 1px solid #ccc;
 	background: #fbfbfb;
+	letter-spacing:2px;
+	  font-family: 'aquiline_bookregular';
 }
 
 form.Send-MessageForm {
@@ -77,6 +79,9 @@ form.Send-MessageForm {
     margin-left: 30px;
 	margin-bottom: 5px;
 	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	    font-family: 'aquiline_bookregular';
+		font-size:16px;
+	letter-spacing:2px;
 }
 form.Send-MessageForm h3 {
     margin: 5px;
@@ -91,11 +96,18 @@ form.Send-MessageForm span {
 textarea {
   resize: none;
 }
+::placeholder{
+	font-size:16px;
+	letter-spacing:2px;
+	  font-family: 'aquiline_bookregular';
+}
 .form-Sec textarea {
     height: 120px;
 	 border-radius: 10px;
     border: 1px solid #ccc;
     background: #fbfbfb;
+	letter-spacing:2px;
+	  font-family: 'aquiline_bookregular';
 }
 form.Send-MessageForm button {
     background: #00cc99 ;
@@ -280,6 +292,7 @@ li.portfolio-item.arton.bulgaria.open .hidden-text{
 .scholl-grade-View .popover__title img{
 	border-radius: 23px;
 	    height: 150px;
+		    filter: grayscale(100%);
 }
 .scholl-grade-View .popover__content img {
     width: 100%;
@@ -295,6 +308,9 @@ li.portfolio-item.arton.bulgaria.open .hidden-text{
     border-color: transparent transparent #fff transparent;
     transition-duration: 0.3s;
     transition-property: transform;
+}
+.scholl-grade-View .popover__wrapper_box:hover .popover__title img {
+	 filter: grayscale(0%);
 }
 .scholl-grade-View .popover__wrapper_box:hover  .popover__content {
   z-index: 10;
@@ -336,19 +352,19 @@ li.portfolio-item.arton.bulgaria.open .hidden-text{
 .scholl-grade-View .popover__content.contpop_6:before {
     right: calc(2% - 10px);
 }
-.scholl-grade-View .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(0 0 0 / 50%);
-    border-radius: 25px;
-}
+/* .scholl-grade-View .overlay { */
+  /* position: absolute; */
+  /* top: 0; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* opacity: 0; */
+  /* transition: .5s ease; */
+  /* background-color: rgb(0 0 0 / 50%); */
+    /* border-radius: 25px; */
+/* } */
 .scholl-grade-View .popover__wrapper_box:hover .overlay {
   opacity: 1;
     border-radius: 20px;
@@ -718,7 +734,7 @@ li.ClientLog {
     /* border: 1px solid #007bff70; */
     height: 150px;
     margin-bottom: 20px;
-    display: table-cell;
+    display: inline-block;
     text-align: center;
     vertical-align: middle;
     /* background: #007bff70; */
@@ -753,4 +769,18 @@ img.tel-img {
     width: 25px;
     margin-right: 6px;
     filter: invert(1);
+}
+/**certificate**/
+h2.b-line-green.prgm-overview {
+    font-size: 16px;
+}
+.image p {
+    font-size: 14px;
+	padding: 0px;
+    margin: 0px;
+	font-family: 'aquiline_bookbold';
+}
+.image p.city-details {
+    font-size: 13px;
+	font-family: 'aquiline_bookregular';
 }
