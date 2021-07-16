@@ -125,7 +125,7 @@ form.Send-MessageForm button {
 		color:#0984e3;
 }
 h4.tit.text-center {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
 	line-height: 1.5;
 	font-family: 'aquiline_bookregular';
@@ -771,9 +771,7 @@ img.tel-img {
     filter: invert(1);
 }
 /**certificate**/
-h2.b-line-green.prgm-overview {
-    font-size: 16px;
-}
+
 .image p {
     font-size: 14px;
 	padding: 0px;
