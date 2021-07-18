@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="custom.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/custom-home1.css">
-	<link rel="stylesheet" type="text/css" href="css/certificate.css">
+	<link rel="stylesheet" type="text/css" href="css/certificate1.css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169916546-1"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>

@@ -1,0 +1,105 @@
+.banner-img2:after {background-image: url(/wp-content/uploads/2015/07/banner-graph.jpg);}
+.banner-img2:after {	background-image: url(/wp-content/uploads/2015/08/banner21.jpg);}
+.fusion-mobile-menu-icons {
+    display: none !important;
+}
+.fusion-secondary-header {
+    display: none;
+}
+.fusion-header {
+  /*  border: none !important;*/
+}
+.fusion-main-menu > ul > li > a {
+    /*padding-bottom: 20px;*/
+}
+.fusion-main-menu > ul > li > a{
+    font-size: 13px;
+}
+
+.fusion-tabs.clean .tab-content .tab-pane p {
+    word-break: break-all;
+}
+.imgcircle img
+{
+border-radius: 50%;
+width: 100%;
+max-width: 200px ;
+max-height:200px ;
+}
+.dlist
+{
+min-height:100px ;
+}
+.headinglist
+{
+min-height:44px ;
+}
+.dlist li
+{
+margin:0px;
+padding:0px;
+text-align:left;
+}
+.dlist1
+{
+min-height:75px ;
+}
+.dlist1 li
+{
+margin:0px;
+padding:0px;
+text-align:left;
+}
+.postionteam
+{
+padding-bottom:10px;
+}
+.white-diagonal-section-wrapper {
+    padding: 69px 0 80px;
+}
+.upper-stripes {
+    top: -69px;
+    height: 46px;
+}
+.grey-diagonal-section-wrapper {
+    background: #ffffff;
+    transform: skewY(-5deg);
+    padding: 144px 0 80px;
+}
+.grey-diagonal-section-wrapper .upper-stripes :nth-child(3) {
+    z-index: 1;
+    background-image: linear-gradient(to right, #fff 0%, #00cc99 100%);
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: calc(100% / 3);
+}
+.grey-diagonal-section-wrapper .upper-stripes :nth-child(3) {
+    z-index: 1;
+    background-image: linear-gradient(to left, #00cc99 0%, #f1f1f1 100%);
+    top: 0;
+    right: 0;
+    height: 46px;
+    width: calc(100% / 3);
+}
+.grey-diagonal-section-wrapper .upper-stripes :first-child {
+    top: -46px;
+    z-index: 1;
+    left: 0;
+    background: #f3f2f2;
+    opacity: 0.35;
+    height: 92px;
+    width: calc(100% / 4);
+}
+span.banner_image img { 
+    top: 10px;
+}
+span.company_banner_image img {
+    min-width: 100%;
+    min-height: 500px;
+    top: 63px;
+}
+@media only screen and (max-width: 1099px) {
+span.company_banner_image img { 
+    min-height: 100%; 
+}

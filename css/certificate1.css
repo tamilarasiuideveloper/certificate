@@ -54,8 +54,8 @@ li.ClientLog {
     width: 16%;
     float: left;
 	display: flex;
-	margin: 10px 0px;
-	    text-align: center;
+	margin: 10px 0px 20px 0px;
+	text-align: center;
 }
  /**form-section**/
  .form-Sec {
@@ -829,6 +829,7 @@ img.tel-img {
 	padding: 0px;
     margin: 0px;
 	font-family: 'aquiline_bookbold';
+	text-transform: capitalize;
 }
 .image p.city-details {
     font-size: 13px;
