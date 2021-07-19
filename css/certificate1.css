@@ -50,13 +50,13 @@ img.down-arr {
     padding-bottom: 3px;
 }
 li.ClientLog {
-    list-style: none;
-    width: 15%;
+list-style: none;
+    width: 16%;
     float: left;
     display: flex;
-    margin: 10px 20px 20px 0px;
+    margin: 20px 20px 20px 20px;
     text-align: center;
-   border: 1px solid green;
+    border: 1px solid green;
     border-radius: 25px;
     padding: 5px 0px;
 
@@ -584,6 +584,13 @@ form.Send-MessageForm h3 {
 .scholl-grade-View .popover__title img {
      height: auto; 
 }
+.school_Logo .container {
+    width: 100%;
+	    max-width: 100%;
+}
+li.ClientLog {
+    margin: 20px 15px 20px 15px;
+}
 }
 @media screen and (max-width: 1024px) and (min-width: 992px ){
 	.container.scholl-grade-View {
@@ -632,10 +639,22 @@ form.Send-MessageForm h3 {
     font-size: 26px;
 }
 li.ClientLog {
-    width: 20%;
+    width: 16%;
+	 margin: 10px 15px 10px 15px;
 }
+
+.image p {
+font-size: 13px;}
+
 .scholl-grade-View .popover__title img {
      height: auto; 
+}
+.school_Logo .container {
+    width: 100%;
+	    max-width: 100%;
+}
+.image p {
+    font-size: 13px;
 }
 }
 @media screen and (max-width: 991px) and (min-width: 768px ){
@@ -685,7 +704,8 @@ form.Send-MessageForm h3 {
     font-size: 30px;
 }
 li.ClientLog {
-    width: 23%;
+    width: 28%;
+	margin: 15px 15px 15px 15px;
 }
 p.Phone-Txt {
     padding: 10px 0px;
@@ -695,6 +715,13 @@ h5.center-Text {
 }
 .scholl-grade-View .popover__title img {
      height: auto; 
+}
+.school_Logo .container {
+    width: 100%;
+	  max-width: 100%;
+}
+ul.client-Logo {
+    padding: 0px;
 }
 }
 @media screen and (max-width: 767px) and (min-width: 320px ){
@@ -742,7 +769,8 @@ form.Send-MessageForm h3 {
     max-width: 100%;
 }
 li.ClientLog {
-    width: 50%;
+width: 100%;
+    margin: 10px 5px;
 }
 ul.client-Logo {
     padding: 0px;
@@ -756,14 +784,18 @@ p.Phone-Txt {
 h5.center-Text {
     padding-top: 10px;
 }
+.school_Logo .container {
+    width: 100%;
+}
 }
 @media screen and (max-width: 767px) and (min-width: 540px ){
 	.scholl-grade-View .popover__wrapper_box {
     width: 44%;
-    margin: 10px 11px 20px 11px;
+    
 }
 li.ClientLog {
-    width: 33%;
+    width: 44%;
+	   margin: 10px 12px;
 }
 .scholl-grade-View .popover__content {
     width: 428px;
@@ -795,6 +827,14 @@ li.ClientLog {
     vertical-align: middle;
     /* background: #007bff70; */
     margin: 0 auto;
+	filter: grayscale(100%);
+}
+.image:hover{
+	filter: grayscale(0%);
+}
+.image:hover p{
+	filter: grayscale(0%);
+	color:green;
 }
 .banner.home.h_ban.certificate-pge-baner {
     background: url(../images/certificate/banner-part.png) no-repeat;
