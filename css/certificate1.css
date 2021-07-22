@@ -880,3 +880,50 @@ img.tel-img {
     font-size: 13px;
 	font-family: 'aquiline_bookregular';
 }
+/***google-colab***/
+.banner.home.h_ban.colab_banner{
+    background-image: url(../images/GoogleColab/r-banner.jpg);
+    background-position: center center;
+}
+.play_icon.hm.colob_playicon {
+    margin: 33vh auto 0;
+    transform: translateY(-50%);
+}
+
+/***partnership***/
+section.section.addcomments.topspace.home_sec.partnership_Logo {
+    background: #f3f2f2;
+}
+.grey-diagonal-section-wrapper.Shl-part_SEC1 {
+    background: #fff;
+    transform: skewY(
+0deg
+ );
+    padding: 20px 0 20px;
+}
+.grey-diagonal-section-wrapper .upper-stripes.up-STRIPES_part :nth-child(3) {
+    z-index: 6;
+    background-image: linear-gradient(to left, #fff 0%, #fff 100%);
+    top: 50px;
+    right: 0;
+    height: 13px;
+    width: calc(100% / 1);
+}
+.grey-diagonal-section-wrapper .upper-stripes.up-STRIPES_part :first-child {
+    top: 68px;
+    z-index: 1;
+    right: 0;
+    background: #fff;
+    opacity: 1;
+    height: 1px;
+    width: calc(100% / 2);
+}
+.grey-diagonal-section-wrapper .upper-stripes.up-STRIPES_part :nth-child(2) {
+    z-index: 1;
+    background-image: linear-gradient(to left, #fff 0%, #fff 100%);
+    opacity: 1;
+    top: 68px;
+    right: 0;
+    height: 1px;
+    width: calc(100% / 1);
+}
