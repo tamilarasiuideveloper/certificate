@@ -927,3 +927,9 @@ section.section.addcomments.topspace.home_sec.partnership_Logo {
     height: 1px;
     width: calc(100% / 1);
 }
+
+
+section.section.banner.home.h_ban.partnership-bnner h1 {
+    font-size: 60px;
+    margin-top: 12% !important;
+}
