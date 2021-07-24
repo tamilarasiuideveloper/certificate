@@ -21,7 +21,13 @@
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/custom-home1.css" >
 <link rel="stylesheet" type="text/css" href="css/certificate1.css" >
-
+<style>
+.linktag{
+	margin-top:20px;
+	text-align:center;
+	font-size:40px;
+}
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169916546-1"></script>
@@ -33,7 +39,7 @@
   gtag('config', 'UA-169916546-1');
 </script>
 </head>
-<body>
+<body >
 <header class="clearHeader" id="top">
   <div class="container home_sec">
     <div class="row">
@@ -140,9 +146,19 @@
 <div class="white-diagonal-section-wrapper">
         <div class="upper-stripes">  <span></span><span></span><span></span> </div>
         <div class="white-diagonal-section-container"> 
+		
         <div class="container"> 
   <h2 align="center" class="b-line-green">Get Started with applied Machine Learning on google cloud and colab</h2><br>
   
+<p class="linktag"><a class="color:red" target="_blank" href="https://www.dropbox.com/s/5zcbclr1xuk66on/colab-readonly.pdf?dl=0">Google Colab link</a></p>
+<p class="linktag"><a class="color:red" target="_blank" href="https://drive.google.com/file/d/1tQb-pK8W8nSwzWVsI0cpBWxVHWCMHkig/view?usp=sharing">Google case link</a></p>
+  
+  <iframe frameborder="0" scrolling="no" style="pointer-events: none;"
+     width="640" height="480"
+     src="https://drive.google.com/file/d/1tQb-pK8W8nSwzWVsI0cpBWxVHWCMHkig/preview?usp=sharing#zoom=85&scrollbar=0&toolbar=0&navpanes=0toolbar=0">
+  </iframe>
+  
+
 
 <br><br><br>
 
@@ -155,7 +171,6 @@
 <!--section end--> 
 
 <div class="clearfix"></div>
-
 
 
 <br><br><br><br><br>
@@ -294,5 +309,46 @@ jQuery( document ).ready(function() {
 });
 
 </script>
+ <script>
+ window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, copyhistory=no, width=w, height=h, top=top, left=left');
+// To disable right click
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+// To disable F12 options
+document.onkeypress = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+document.onmousedown = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+document.onkeydown = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+
+// To To Disable ctrl+c, ctrl+u
+
+jQuery(document).ready(function($){
+$(document).keydown(function(event) {
+var pressedKey = String.fromCharCode(event.keyCode).toLowerCase();
+
+if (event.ctrlKey && (pressedKey == "c" || pressedKey == "u")) {
+//alert('Sorry, This Functionality Has Been Disabled!');
+//disable key press porcessing
+return false;
+}
+});
+});
+
+ </script>
+
 </body>
 </html>
